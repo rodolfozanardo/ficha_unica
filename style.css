@@ -6,7 +6,7 @@ body {
 
 
 /* Media Query para telas com largura máxima de 1024px */
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 
     .buttons-container {
         padding: 20px;
