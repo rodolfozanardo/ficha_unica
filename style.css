@@ -3,76 +3,77 @@ body {
     margin: 0;
 }
 
-.buttons-container {
-    padding: 20px;
-    text-align: right;
-    flex-direction: column;
-}
-
-.buttons-container2 {
-    margin-top: 10px;
-    margin-right: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.buttons-container button {
-    display: block;
-    width: 40%;
-    margin-bottom: 10px;
-    padding: 19px;
-    background-color: #609fdf;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.buttons-container2 button {
-    display: block;
-    width: 20%;
-    margin-bottom: 10px;
-    padding: 14px;
-    background-color: #609fdf;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 22px;
-}
-
-.buttons-container3 {
-    margin-top: 45px;
-    margin-left: 63px;
-    margin-right: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-}
-
-.buttons-container3 button {
-    display: block;
-    width: 20%;
-    margin-bottom: 10px;
-    padding: 19px;
-    background-color: #609fdf;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 14px;
-    font-size: 22px;
-}
 
 
 /* Media Query para telas com largura máxima de 1024px */
 @media (max-width: 1024px) {
+
+    .buttons-container {
+        padding: 20px;
+        text-align: right;
+        flex-direction: column;
+    }
+    
+    .buttons-container2 {
+        margin-top: 10px;
+        margin-right: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .buttons-container button {
+        display: block;
+        width: 40%;
+        margin-bottom: 10px;
+        padding: 19px;
+        background-color: #609fdf;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    .buttons-container2 button {
+        display: block;
+        width: 20%;
+        margin-bottom: 10px;
+        padding: 14px;
+        background-color: #609fdf;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    
+    .buttons-container3 {
+        margin-top: 30px;
+        margin-left: 63px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .buttons-container3 button {
+        display: block;
+        width: 20%;
+        margin-bottom: 10px;
+        padding: 19px;
+        background-color: #609fdf;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 14px;
+        font-size: 22px;
+    }
 
     .head img {
         max-width: 100%; /* Ajusta automaticamente a largura para a largura original da imagem */
@@ -141,3 +142,4 @@ body {
         margin-right: 20px; /* Adiciona margem entre os botões */
     }
 }
+
