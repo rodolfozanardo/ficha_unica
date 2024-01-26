@@ -5,7 +5,7 @@ body {
 
 
 /* Media Query para telas com largura máxima de 1024px */
-@media (max-width: 1024px) {
+@media (max-width: 500px) {
 
     .head {
         max-width: 100%;
